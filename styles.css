@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Gaya Umum */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: #6b4e3d;
+    color: #fff;
+    padding: 20px 0;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header nav ul li {
+    margin: 0 10px;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header .btn {
+    background: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('coffee-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  #hero .btn {
+    background: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Tentang Kami */
+  #tentang {
+    padding: 50px 20px;
+    background: #f7f5f2;
+    text-align: center;
+  }
+  
+  /* Menu */
+  #menu {
+    padding: 50px 20px;
+  }
+  .menu-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .menu-item {
+    text-align: center;
+  }
+  .menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  /* Lokasi */
+  #lokasi {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Kontak */
+  #kontak {
+    padding: 50px 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form button {
+    background: #6b4e3d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  footer a {
+    color: #f4a261;
+    text-decoration: none;
+  }
